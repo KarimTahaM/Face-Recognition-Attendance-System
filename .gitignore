@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+log.txt
+db/*
+!db/.gitkeep
+.vscode/
+*.log
+tempCodeRunnerFile.py
