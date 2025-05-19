@@ -38,11 +38,14 @@ This system provides a modern solution for attendance tracking using facial reco
 - **Secure Storage**: Protected face encoding storage
 - **Input Validation**: Checks for face presence and quality
 
+![Anti-Spoofing Framework](Silent-Face-Anti-Spoofing-master/images/framework.jpg)
+*Framework of the Silent Face Anti-Spoofing system used in this project*
+
 ## Prerequisites
 
 1. Install Python requirements:
 ```bash
-pip install face-recognition dlib opencv-python fastapi uvicorn pillow numpy
+pip install -r requirements.txt
 ```
 
 2. Set up dlib on Windows (if needed):
@@ -80,7 +83,7 @@ Face-Recognition+Attendance-System/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Face-Recognition-Attendance-System.git
+git clone https://github.com/KarimTahaM/Face-Recognition-Attendance-System
 cd Face-Recognition-Attendance-System
 ```
 
@@ -180,10 +183,6 @@ Where action is either "in" or "out"
 3. Commit changes
 4. Push to branch
 5. Open pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
 
